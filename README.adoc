@@ -117,19 +117,11 @@ java -jar target/tp_qualite-1.0.jar
 .Et voilà!
 image::success2.png["Ca run!", width=80%]
 
-== Améliorations
-
-. Reprenez un de vos exercices précédents et mettez les sources dans `src/java`.
-. Ajustez éventuellement le `pom.xml` pour que les étapes précédentes produisent les résultats escomptés. Pensez à vérifier que votre fichier .jar est exécutable. Que devez-vous corriger dans votre pom.xml ? Quelle est la commande pour le lancer ?
-. Ajoutez les commentaires vus en dev.
-. Cherchez dans la documentation {maven} les commandes permettant de générer une documentation javadoc, et les adaptions à faire sur votre projet (et éventuellement `pom.xml`) afin que {maven} génère la documentation automatiquement pour vous.
-. Documentez votre projet: remplacez le contenu de ce fichier README.doc par les instructions de compilation, de documentation et de lancement de votre projet. 
+== Tutoriel Maven
+. importer un programme avec un main
+. remplacer l'ancien main par le nouveau dans pom.xml
+. lancer l'execution en faisant les commandes mvn compile et mvn package
 
 == Consignes et rendus
 
 Pour ce TP, il vous faudra simplement rendre le projet complet (`src`) ainsi que la dernière version du fichier `pom.xml` sur votre dépôt et la javadoc de votre code.
-
-[appendix]
-== Import dans Eclipse
-
-TO BE DONE...
